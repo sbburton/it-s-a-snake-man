@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(190, 8, 245);
+  text-align: center;
+}
+
+#gameContainer {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw auto;
+  background-color: black;
+  border: solid 10px rgb(199, 190, 2);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 3px black;
+}
+
+.gameBoardPixel {
+  width: 1vw;
+  height: 1vw;
+  border-radius: 10px;
+  float: left;
+  outline: 1px solid red;
+}
+
+.food {
+  background-color: #f80505;
+  box-shadow: 0 0 10px #fa8080;
+}
+
+.snakeBodyPixel  {
+  background-color: #049a2c;
+  box-shadow: 0 0 5px green;
+}
+
+#scoreContainer {
+  width: 40vw;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.scoreBoard {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  border-radius: 10px;
+  border: solid 5px;
+  color: white;
+  background: black;
+  padding: 5px 15px;
+  margin: 10px 0 20px 0;
+  box-shadow: 0px 0px 20px 3px black;
+}
+
+#onScreenControllers {
+  display: none;
+}
